@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent, IonMenu, IonButtons, IonButton, IonMenuButton],
 })
+
 export class HomePage {
   counters: { [key: string]: number } = {
     banana: 0,
